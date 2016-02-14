@@ -39,5 +39,6 @@ for i, row in enumerate(reader):
             oldtime = time.time()
             print tps, "tx/s"
 
+transaction.commit()
 f.close()
 db.disconnect()
