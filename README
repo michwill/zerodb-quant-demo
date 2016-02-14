@@ -1,0 +1,6 @@
+Demo for "Python for Quant Finance" meetup
+
+In order to init the demo:
+* run init.sh (may need to fix paths to pandas/matplotlib or install yourself in virtualenv)
+* zerodb-manage init_db  # password="demo"
+* python create.py if you want your own db
